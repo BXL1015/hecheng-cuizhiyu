@@ -97,7 +97,6 @@
     </div>
 
 
-    <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
     <script type="text/javascript" src="ads.js"></script>
 
     <script src="src/settings.js" charset="utf-8"></script>
@@ -110,30 +109,7 @@
         var adEndComplete = false;
         var resEndComplete = false;
 
-        judgeLanTitle();
-
-        function judgeLanTitle() {
-
-            //        console.log("window.navigator.language",window.navigator.language);
-
-            if (window.navigator.language == "zh-CN" || window.navigator.language == "zh-cn") {
-                document.title = "灏忔父鎴忥細鍚堟垚澶цタ鐡?;
-            } else if (window.navigator.language == "zh-TW") {
-                document.title = "灏忛亰鎴诧細鍚堟垚澶цタ鐡?;
-            } else if (window.navigator.language == "zh-HK") {
-                document.title = "灏忛亰鎴诧細鍚堟垚澶цタ鐡?;
-            } else if (window.navigator.language == "ko-KR") {
-                document.title = "鞛戩潃 雴€鞚达細韥?靾橂皶 鞚?頃╈劚 頃?雼?;
-            } else if (window.navigator.language == "ja-JP") {
-                document.title = "銉熴儖銈层兗銉狅細鍚堟垚銈广偆銈?;
-            } else if (window.navigator.language == "th-TH") {
-                document.title = "喙€喔佮浮喙€喔ム箛喔佮箚锛氞箒喔曕竾喙傕浮喔副喔囙箑喔勦福喔侧赴喔箤";
-            } else {
-                document.title = "Little game锛歋ynthetic watermelon";
-            }
-
-
-        }
+        document.title = "合成崔志宇";
 
         var loadintT = document.getElementById("loadingText");
         var loadintGif = document.getElementById("loadingImg")
@@ -270,4 +246,6 @@
 </body>
 
 </html>
+
+
 
